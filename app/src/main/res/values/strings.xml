@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Quản lý sinh viên</string>
+    <string name="name">Quản lý sinh viên</string>
+    <string name="nhap_thongtin">Nhập thông tin sinh viên</string>
+    <string name="capnhat_thongtin">Cập nhật thông tin sinh viên</string>
+    <string name="dssv">Danh sách sinh viên</string>
+    <string name="ma_sv_example">Mã sinh viên</string>
+    <string name="ho_ten_example">Nhập họ tên</string>
+    <string name="email_example">Nhập email</string>
+    <string name="sdt_example">Nhập số điện thoại</string>
+    <string name="ma_sv">Mã sinh viên:</string>
+    <string name="ho_ten">Họ tên:</string>
+    <string name="gender">Giới tính:</string>
+    <string name="email">Email:</string>
+    <string name="sdt">Số điện thoại:</string>
+    <string name="them">Thêm</string>
+    <string name="sua">Sửa</string>
+    <string name="xoa">Xóa</string>
+    <string name="thoat">Thoát</string>
+    <string name="male">Nam</string>
+    <string name="female">Nữ</string>
+    <string name="search_example">Nhập từ cần tìm kiếm</string>
+    <string name="search">Tìm kiếm</string>
+</resources>
