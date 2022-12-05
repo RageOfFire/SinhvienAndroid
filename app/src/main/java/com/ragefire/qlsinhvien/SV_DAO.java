@@ -75,7 +75,7 @@ public class SV_DAO {
     public List<SinhVien> SearchSV(String s) {
         List<SinhVien> ListSV = new ArrayList<SinhVien>();
         SQLiteDatabase db = database.getReadableDatabase();
-        String sql = "SELECT * FROM "+ TABLE_NAME +" WHERE " + ID + "LIKE '%" + s + "%' OR " + NAME + "LIKE '%" + s + "%'";
+        String sql = "SELECT * FROM "+ TABLE_NAME +" WHERE " + ID + " LIKE '%" + s + "%' OR " + NAME + " LIKE '%" + s + "%'";
         Cursor cursor = db.rawQuery(sql, null);
         cursor.moveToFirst();
         while (!cursor.isAfterLast()) {
